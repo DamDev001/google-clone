@@ -1,0 +1,119 @@
+svg{
+    width: 1.5rem;   
+}
+
+.search_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #303134;
+    padding: 8px 20px;
+    border-radius: 999;
+    height: 30px;
+    width: 75vw;
+    border-radius: 999px;
+    max-width: 550px;
+}
+
+.inputContainer:hover{
+    background: #303134;
+}
+
+.search{
+    color: rgb(143, 143, 143);
+}
+
+.inputContainer > input{
+    flex: 1;
+    padding: 10px 20px;
+    outline: 0;
+    border: 0;
+    font-size: medium;
+    background: transparent;
+    color: white;
+}
+
+.voiceAndCamera{
+    display: flex;
+}
+
+.voice{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.camera{
+    cursor: pointer;
+}
+
+.search_container > .btn{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_container > .btn > button{
+    margin: 5px;
+    padding: 7px 15px;
+    background: #303134;
+    border: 1px solid #303134;
+    color: white;
+    text-transform: inherit;
+    outline: 0;
+}
+
+.btn > button:hover{
+    border: 1px solid #676869;
+    transition: 0.5s;
+}
+
+.hiddenButton{
+    display: none !important;
+}
+
+.googleOffer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    display: none;
+}
+
+.offers{
+    display: flex;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.offers > p{
+    margin-right: 10px;
+    color: #c9c9c9d8;
+}
+
+.offers > a{
+    margin-right: 10px;
+    color: #7192C7;
+    text-decoration: none;
+}
+
+.offers a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width: 768px){
+    .offers{
+        display: block;
+    }
+
+    .offers > p{
+        margin-bottom: 10px;
+    }
+}
